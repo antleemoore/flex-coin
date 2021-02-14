@@ -2,3 +2,4 @@ node_modules/
 compile.sh
 request.rest
 shatest.js
+tests/
