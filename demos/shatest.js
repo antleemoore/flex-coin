@@ -37,7 +37,7 @@ module.exports.processTransaction = () => {
 							const st = Date.now();
 							do{
 								let hash = sha256(nonse + sender + reciever + amount + transaction.date).toString(crypto.enc.hex);
-								if(hash.substring(0,6) === 'abc1d2') {
+								if(hash.substring(0,6) === 'ef1c59') {
 									const et = Date.now();
 									transaction.sender = sender;
 									transaction.reciever = reciever;
