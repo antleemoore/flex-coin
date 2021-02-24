@@ -14,15 +14,15 @@ module.exports.mineTransaction = (sender, reciever, amount) => {
 	while(1){
 		let hash = sha256(nonse + sender + reciever + amount + new Date().toString())
 			.toString(crypto.enc.hex);
-		if(hash.substring(0,2) === 'ff') {
+		if(hash.substring(0,6) === 'd87c3f') {
 			transaction={sender, reciever,amount,nonse,hash,
 				date: new Date().toString(),isMined:true,
 				timeTaken:(Date.now()-st)/1000};
-			console.log(`Testing ${nonse} against hash: ${hash}`);
+			console.log(`Testing\t${nonse}\tagainst hash:${hash}`);
 			break;
 		}
 		if(nonse === printIndex){
-			console.log(`Testing ${nonse} against hash: ${hash}`);
+			console.log(`Testing\t${nonse}\tagainst hash:${hash}`);
 			printIndex = printIndex * 10 + ex;
 			ex*=2;
 		}

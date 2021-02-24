@@ -1,12 +1,8 @@
-Testing 0 against hash: 54caf98a62d30fb3d8f94d914ab09752ef9ac44d404891bc9df1c49f816f3ce6
-Testing 10 against hash: 954fecb533a66b18f946d331e624fc36d654d828ac5401554a49719e1c0c4a5c
-Testing 106 against hash: ffdf140cb1ab3c128e5f2e250860466b4ccdcf7aa14399eb6a26f470c9e39bcc
-
-Time to Mine: 0 seconds
-Sender: Anthony
-Reciever: Trevor
-Amount: 12000000
-Date: Mon Feb 22 2021 20:59:01 GMT-0500 (Eastern Standard Time)
-Nonse: 106
-Hash: ffdf140cb1ab3c128e5f2e250860466b4ccdcf7aa14399eb6a26f470c9e39bcc
-
+Testing	0	against hash:7e399711efd4eb8e24f347fb50692ab7a87daa93124c2f4877bd7d141b99de46
+Testing	10	against hash:62f38a36cda7240288b2113d32fa2627964cd8119f26f754bc1de5919138dc1a
+Testing	120	against hash:453769bee4e3f9f72e0f249a7e375ad65711a92434712e306cbccf473fc59217
+Testing	1240	against hash:bd60c118b9a31a0fe7ec7e5e20c3990f171b3542e4a6f8a9fe86e98dad092374
+Testing	12480	against hash:64f5ec98c25a79d1d171092b2faff95a1bb3e1f844e877d9c05c9abefdafab9b
+Testing	124960	against hash:193bc04dcfdd5294eca4e6936c1a0f2addd2582dc65e52a140a88350750deace
+Testing	1249920	against hash:bfb5200a9ca67bd7a723e39bbb75a08163174555856b48c64de754d9a6270f29
+Testing	12499840	against hash:e18eb4422909ae82a5c32ef555b468b4ba9dbb0db48112c4840f3c1ba395e626
