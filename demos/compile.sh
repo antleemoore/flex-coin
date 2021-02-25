@@ -7,7 +7,7 @@ menu(){
 	echo "v - view transaction history"
 	echo "c - clear transaction history"
 	echo "q - quit"
-	echo -n "Choice: "
+	echo -n "> "
 }
 menu
 read ch
@@ -17,6 +17,9 @@ do
 	if [ -z "$ch" ]
 	then
 		echo "Command cannot be empty."
+	elif [ $ch == 'clear' ]
+	then
+		clear
 	elif [ $ch == 'v' ]
 	then
 		less transaction-history.txt
@@ -39,7 +42,14 @@ do
 		echo "Check transaction-history.txt for results."
 	elif [ $ch == 'c' ]
 	then
-		> transaction-history.txt
+		echo -n "Are you sure? [ Y/n ] "
+		read check
+		if [[ $check == 'y' || $check == 'Y' ]]
+		then
+			> transaction-history.txt
+		else
+			echo -n
+		fi
 	elif [ $ch == 'q' ]
 	then
 		echo "Quitting..."

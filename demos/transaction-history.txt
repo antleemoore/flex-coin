@@ -1,8 +1,18 @@
-Testing	0	against hash:7e399711efd4eb8e24f347fb50692ab7a87daa93124c2f4877bd7d141b99de46
-Testing	10	against hash:62f38a36cda7240288b2113d32fa2627964cd8119f26f754bc1de5919138dc1a
-Testing	120	against hash:453769bee4e3f9f72e0f249a7e375ad65711a92434712e306cbccf473fc59217
-Testing	1240	against hash:bd60c118b9a31a0fe7ec7e5e20c3990f171b3542e4a6f8a9fe86e98dad092374
-Testing	12480	against hash:64f5ec98c25a79d1d171092b2faff95a1bb3e1f844e877d9c05c9abefdafab9b
-Testing	124960	against hash:193bc04dcfdd5294eca4e6936c1a0f2addd2582dc65e52a140a88350750deace
-Testing	1249920	against hash:bfb5200a9ca67bd7a723e39bbb75a08163174555856b48c64de754d9a6270f29
-Testing	12499840	against hash:e18eb4422909ae82a5c32ef555b468b4ba9dbb0db48112c4840f3c1ba395e626
+
+Time to Mine: 1 seconds
+Sender: Anthony
+Reciever: Trevor
+Amount: 1200
+Date: Thu Feb 25 2021 15:17:20 GMT-0500 (Eastern Standard Time)
+Nonse: 57401
+Hash: 1999e2c758bfc57269cdef0c2d2f63315ab0e8d54f1f06a95fea8fb8f130186a
+
+
+Time to Mine: 0 seconds
+Sender: Anonymous
+Reciever: Anonymous
+Amount: Undisclosed
+Date: Thu Feb 25 2021 15:26:14 GMT-0500 (Eastern Standard Time)
+Nonse: 39825
+Hash: 1999dc4d9ae71e28a90d45696a6831d889988ff91ee235533c413cb09b4d6090
+
